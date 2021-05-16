@@ -25,9 +25,9 @@ public class JournalList {
         list.add(journal);
     }
 
-    public Journal find(String bookName){
+    public Journal find(String JournalName){
         for(Journal journal : list){
-            if (journal.getName().equals(bookName)){
+            if (journal.getName().equals(JournalName)){
                 return journal;
             }
         }
